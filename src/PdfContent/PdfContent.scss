@@ -1,0 +1,31 @@
+.PdfContent {
+
+    margin: 0 auto;
+    float: none;
+    border: 1px solid #ccc;
+    .eachInfo {
+        
+        > div {
+            padding: 1.25rem 0;
+        }
+
+        > div:last-child {
+            text-align: right;
+        }
+    }
+
+    .eachInfo:nth-child(odd) {
+        background-color: #e2e2ee;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .eachInfo:nth-child(even) {
+        background-color: #fbfbfd;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .displayFlex {
+        display: flex;
+        justify-content: center;
+    }
+}

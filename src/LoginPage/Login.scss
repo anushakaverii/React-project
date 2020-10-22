@@ -1,0 +1,47 @@
+.LoginPage {
+
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 4px #d7d1d1a1;
+    margin-top: 7.5rem;
+
+    .displayFlex {
+        display: flex;
+    }
+
+    .justifyContentCenter {
+        justify-content: center;
+    }
+
+    .CustomTextBox {
+        height: 5rem;
+        border-color: #ccc;
+    }
+
+    .LoginButton {
+        
+        margin-bottom: 2rem;
+        > button {
+            background-color: #3A5CD9;
+            border-color: #3A5CD9;
+            height: 5rem;
+            border-radius: 5px;
+            width: 100%;
+        }
+    }
+
+    .MarginBottom {
+        margin-bottom: 4rem !important;
+    }
+
+    > h2 {
+        margin-bottom: 5rem;
+    }
+
+    .btn-link {
+        font-size: 2rem;
+        color: #2A9CF6;
+    }
+
+}

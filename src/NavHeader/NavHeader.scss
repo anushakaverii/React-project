@@ -1,0 +1,13 @@
+.NavHeader {
+    background-color: #A900B0;
+    color: #ffffff;
+    padding: 3rem;
+
+    .AlignLeft {
+        text-align: left;
+    }
+
+    > h2 {
+        margin: 0;
+    }
+}
